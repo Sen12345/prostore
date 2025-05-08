@@ -11,9 +11,9 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
-  {
-    "@typescript-eslint/no-this-alias": "off",
-  },
+  // {
+  //   "@typescript-eslint/no-this-alias": "off",
+  // },
 ];
 
 export default eslintConfig;
