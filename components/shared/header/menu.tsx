@@ -12,7 +12,7 @@ import {
 
 const Menu = () => {
   return (
-    <div className="flex justify-end gap-3">
+    <div className="flex justify-end  w-screen gap-3">
       <nav className="hidden md:flex w-full max-w-xs gap-1 ">
         <div className="space-x-2">
           <ModeToggle />
@@ -20,6 +20,12 @@ const Menu = () => {
             <Link href="/cart">
               <ShoppingCart />
               Cart
+            </Link>
+          </Button>
+          <Button asChild>
+            <Link href="/sign-in">
+              <UserIcon />
+              Sign In
             </Link>
           </Button>
         </div>

@@ -12,9 +12,11 @@ const compat = new FlatCompat({
 const eslintConfig = [
   ...compat.config({
     extends: ["next"],
+    // "files":["path/to/your/files.ts","path/to/other/files.tsx"],
     rules: {
       "react/no-unescaped-entities": "off",
       "@next/next/no-page-custom-font": "off",
+      "@typescript-eslint/no-unused-vars": "off",
     },
   }),
 ];

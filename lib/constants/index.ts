@@ -6,3 +6,8 @@ export const DESCRIPTION =
   "Ecommerce platform built with Next.js";
 export const LATEST_PRODUCTS_LIMIT =
   Number(process.env.LATEST_PRODUCTS_LIMIT) || 4;
+
+export const signInDefaultValue = {
+  email: "senatorcox90@gmail.com",
+  password: "",
+};
